@@ -48,7 +48,6 @@ public class Sdes {
 		//combine all that with the right part of initially permutated text
 		String afterFirstCycle = initiallyPermutatedText.substring(initiallyPermutatedText.length() / 2) + a;
 		//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-		//Step 3
 		String expandedA = expandAndPermutate(a);
 		String xorOfAAndKey2 = performXor(expandedA, key2);
 		String boxes2 = putTextIntoSBox(xorOfAAndKey2);
