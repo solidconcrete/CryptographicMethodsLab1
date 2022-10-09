@@ -1,6 +1,6 @@
 public class main {
 	public static void main(String[] args) {
-		long B = 456231;
+		long B = 20173925;
 		System.out.println("BIN: " + convert(B, 2));
 		System.out.println("OCT: " + convert(B, 8));
 		System.out.println("HEX: " + convert(B, 16));
